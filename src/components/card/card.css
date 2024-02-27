@@ -1,0 +1,23 @@
+.card-container {
+  border: solid 2px #deeadf;
+  border-radius: 7px;
+  display: flex;
+}
+
+.card-icon {
+  height: 100px;
+  width: 100px;
+  background-color: #deeadf;
+  color: black;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  color: black;
+  margin: 0;
+}

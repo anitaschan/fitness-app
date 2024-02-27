@@ -1,0 +1,18 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  text-align: left;
+  padding-left: 5px;
+  color: #5e5959;
+}
+
+.input-field {
+  border: solid 2px #deeadf;
+  background-color: #deeadf;
+  border-radius: 10px;
+  padding: 8px;
+  color: black;
+}
