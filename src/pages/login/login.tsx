@@ -5,9 +5,12 @@ import "./login.css";
 
 export const LoginPage = () => {
   return (
-    <section className="login-input-container">
-      <InputField labelName="Input1" />
-      <Card />
+    <section className="login-container">
+      <div className='login-logo'>Some logo here</div>
+      <div className="login-input-container">
+        <InputField labelName="username" />
+        <InputField labelName="password" />
+      </div>
     </section>
   );
 };

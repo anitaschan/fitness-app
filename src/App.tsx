@@ -1,12 +1,13 @@
-import { useState } from "react";
-import "./App.css";
 import { LoginPage } from "./pages/login/login";
+import "./App.css";
+import { Profile } from "./pages/profile/profile";
 
 function App() {
   return (
-    <>
-      <LoginPage />
-    </>
+    <div className="appContainer">
+      {/* <LoginPage /> */}
+      <Profile />
+    </div>
   );
 }
 

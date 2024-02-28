@@ -8,7 +8,7 @@ export const InputField = ({ labelName }: InputFieldProps) => {
   return (
     <div className="input-container">
       <label className="input-label">{labelName}</label>
-      <input className="input-field"></input>
+      <input className="input-field" />
     </div>
   );
 };
