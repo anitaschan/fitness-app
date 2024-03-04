@@ -1,4 +1,4 @@
-import "./input-field.css";
+import './input-field.css';
 
 type InputFieldProps = {
   labelName: string;
