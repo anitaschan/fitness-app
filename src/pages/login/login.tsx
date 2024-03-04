@@ -1,4 +1,5 @@
 import { InputField } from '../../components';
+import { Card } from '../../components/card/card';
 
 import './login.css';
 
