@@ -10,8 +10,9 @@ export const LoginPage = () => {
       <div className="login-input-container">
         <InputField labelName="username" />
         <InputField labelName="password" />
+        <a href={'/home'}>click me</a>
+        <Card />
       </div>
-      {/* <Card>wrgio</Card> */}
     </section>
   );
 };
